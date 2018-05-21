@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86b48298-986b-41c7-a212-aa13a45a2e5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mogura/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mogura/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mogura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mogura/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GotoSceneOnClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GotoSceneOnClick.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Top.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Top.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CrashedAssetImports.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a8/a8c3aa8c02b934996a6f1ded2cdf418d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a8/a8c3aa8c02b934996a6f1ded2cdf418d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a8/a8c3aa8c02b934996a6f1ded2cdf418d.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a8/a8c3aa8c02b934996a6f1ded2cdf418d.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mogura.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Mogura.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-157e0426a7502467caf5aa729bfd0ccb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-51b93ecdaa3bc4a6db4699bf1d95ed6f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5e487b715ad9546469b6410bed0aa21c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7122962ea72eb4952970a2cb566f2fd4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-dcd63298390904f3193b21d2e6cca26a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mogura.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Mogura.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +28,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GotoSceneOnClick.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/GotoSceneOnClick.cs">
+      <file leaf-file-name="Timer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="420">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+              <folding>
+                <marker date="1526903772828" expanded="true" signature="6:158" ph="..." />
+                <marker date="1526903772828" expanded="true" signature="194:576" ph="{...}" />
+                <marker date="1526903772828" expanded="true" signature="300:344" ph="{...}" />
+                <marker date="1526903772828" expanded="true" signature="398:574" ph="{...}" />
+                <marker date="1526903772828" expanded="true" signature="533:571" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GotoSceneOnClick.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GotoSceneOnClick.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <marker date="1526902476548" expanded="true" signature="6:113" ph="..." />
                 <marker date="1526902476548" expanded="true" signature="161:238" ph="{...}" />
@@ -48,54 +58,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoutingUseCase.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_routing/Scripts/CAFU/Routing/Domain/UseCase/RoutingUseCase.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-              <folding>
-                <marker date="1526472650000" expanded="false" signature="6:288" ph="..." />
-                <marker date="1526472650000" expanded="true" signature="327:7072" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="402:1815" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="1882:7070" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="1957:2477" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="2039:2467" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="2938:3054" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="3132:3225" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="3318:3421" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="3472:3552" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="3703:3838" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="3947:4436" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="4560:4682" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="4764:5244" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="5310:5382" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="5506:5628" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="5710:5823" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="5891:5965" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="6091:6215" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="6299:6414" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="6505:6613" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="6662:6756" ph="{...}" />
-                <marker date="1526472650000" expanded="true" signature="6791:7064" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LoadSceneAsObservable</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GotoSceneOnClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_routing/Scripts/CAFU/Routing/Domain/UseCase/RoutingUseCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../try-unity/Project Tanuki/Assets/Scripts/LoadOnClick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GotoSceneOnClick.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/GotoSceneOnClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
       </list>
     </option>
   </component>
@@ -121,6 +104,11 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Mogura" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Mogura" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -170,12 +158,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526899419995</updated>
-      <workItem from="1526899425041" duration="2340000" />
+      <workItem from="1526899425041" duration="3510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2340000" />
+    <option name="totallyTimeSpent" value="3510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,6 +230,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GotoSceneOnClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_routing/Scripts/CAFU/Routing/Domain/UseCase/RoutingUseCase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -274,14 +269,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GotoSceneOnClick.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GotoSceneOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <marker date="1526902476548" expanded="true" signature="6:113" ph="..." />
             <marker date="1526902476548" expanded="true" signature="161:238" ph="{...}" />
             <marker date="1526902476548" expanded="true" signature="197:236" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <marker date="1526903772828" expanded="true" signature="6:158" ph="..." />
+            <marker date="1526903772828" expanded="true" signature="194:576" ph="{...}" />
+            <marker date="1526903772828" expanded="true" signature="300:344" ph="{...}" />
+            <marker date="1526903772828" expanded="true" signature="398:574" ph="{...}" />
+            <marker date="1526903772828" expanded="true" signature="533:571" ph="{...}" />
           </folding>
         </state>
       </provider>
