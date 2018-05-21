@@ -1,0 +1,18 @@
+##Usings##namespace ##Namespace##
+{
+    public class ##ClassName## : Controller<##ClassName##, ##SceneName##Presenter, ##SceneName##Presenter.Factory>
+    {
+        protected override void OnStart()
+        {
+            base.OnStart();
+        }
+    }
+
+    public static class ViewExtension
+    {
+        public static ##SceneName##Presenter GetPresenter(this IView view)
+        {
+            return Controller.Instance.Presenter;
+        }
+    }
+}

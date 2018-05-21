@@ -1,0 +1,10 @@
+##Usings##namespace ##Namespace##
+{
+    public interface ##InterfaceName## : I##Singleton####LayerType##
+    {
+    }
+
+    public class ##ClassName## : ##BaseClassName####ImplementsInterfaces##
+    {
+##Factory##    }
+}

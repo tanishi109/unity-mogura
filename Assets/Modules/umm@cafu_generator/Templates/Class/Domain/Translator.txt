@@ -1,0 +1,3 @@
+##Usings##namespace ##Namespace##
+{
+}
