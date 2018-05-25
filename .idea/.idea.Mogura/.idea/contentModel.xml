@@ -514,7 +514,31 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Data" t="Include">
+            <e p="Entity" t="Include">
+              <e p="ProjectContextEntity.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Domain" t="Include">
+            <e p="UseCase" t="Include">
+              <e p="HogeUseCase.cs" t="Include" />
+            </e>
+          </e>
           <e p="GotoSceneOnClick.cs" t="Include" />
+          <e p="Presentation" t="Include">
+            <e p="Presenter" t="Include">
+              <e p="FugaPresenter.cs" t="Include" />
+              <e p="HogePresenter.cs" t="Include" />
+            </e>
+            <e p="View" t="Include">
+              <e p="Fuga" t="Include">
+                <e p="Controller.cs" t="Include" />
+              </e>
+              <e p="Hoge" t="Include">
+                <e p="Controller.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Timer.cs" t="Include" />
         </e>
       </e>

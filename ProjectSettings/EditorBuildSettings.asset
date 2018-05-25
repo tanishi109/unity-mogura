@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ranking.unity
     guid: 274a542c5042e4296bae468676f31013
+  - enabled: 1
+    path: Assets/Scenes/Test/MoguraFuga.unity
+    guid: 4d2fee586517d4df1baab714cc179b30
+  - enabled: 1
+    path: Assets/Scenes/Test/MoguraHoge.unity
+    guid: c51f3ec0c6dbf49e9898d27481dd49db
   m_configObjects: {}
