@@ -21,9 +21,9 @@ namespace Mogura.Domain.UseCase
 
         public void ChangeScene()
         {
-//            var routing = new RoutingUseCase();
-//            routing.LoadScene("MoguraFuga", LoadSceneMode.Single);
-            SceneManager.LoadScene("MoguraFuga", LoadSceneMode.Single);
+            var routing = new RoutingUseCase();
+            routing.LoadScene("MoguraFuga", LoadSceneMode.Single);
+//            SceneManager.LoadScene("MoguraFuga", LoadSceneMode.Single);
         }
     }
 }
