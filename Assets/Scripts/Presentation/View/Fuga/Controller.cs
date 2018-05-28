@@ -1,5 +1,6 @@
 using CAFU.Core.Presentation.View;
 using Mogura.Presentation.Presenter;
+using UnityEngine;
 
 namespace Mogura.Presentation.View.Fuga
 {
@@ -8,6 +9,7 @@ namespace Mogura.Presentation.View.Fuga
         protected override void OnStart()
         {
             base.OnStart();
+            Debug.Log("Fuga controller");
         }
     }
 

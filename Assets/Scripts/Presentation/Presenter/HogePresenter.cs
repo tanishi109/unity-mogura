@@ -14,7 +14,7 @@ namespace Mogura.Presentation.Presenter
             }
         }
 
-        public void DoHoge()
+        public void ChangeScene()
         {
             var uc = new HogeUseCase();
             uc.ChangeScene();

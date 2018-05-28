@@ -12,7 +12,7 @@ namespace Mogura.Presentation.View.Hoge
         }
         
         public void ChangeScene() {
-            this.GetPresenter().DoHoge();
+            this.GetPresenter().ChangeScene();
         }
     }
 
