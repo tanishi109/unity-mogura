@@ -14,7 +14,7 @@ namespace Mogura.Presentation.View.Game
     {
         private Text _timerText;
         private Text _scoreText;
-        private int _score;
+        public int Score;
         public Vector3 MoguraPosMin;
         public Vector3 MoguraPosMax;
         public float Seconds;
@@ -27,7 +27,7 @@ namespace Mogura.Presentation.View.Game
             // TODO: 名前以外の間違って変えにくい要素を通して取得したい…Tagとか?
             _timerText = GameObject.Find("/UI/Canvas/TimerText").GetComponent<Text>();
             _scoreText = GameObject.Find("/UI/Canvas/ScoreText").GetComponent<Text>();
-            _score = 0;
+            Score = 0;
             
             this.GetPresenter().InitTimer(Seconds);
             StartCoroutine(SpawnMogura());
@@ -68,8 +68,8 @@ namespace Mogura.Presentation.View.Game
         {
             var pointerEventData = (PointerEventData)data;
 
-            _score += GamePresenter.BeatMogura(pointerEventData.pointerPress);
-            _scoreText.text = _score.ToString();
+            Score += GamePresenter.BeatMogura(pointerEventData.pointerPress);
+            _scoreText.text = Score.ToString();
         }
     }
 
