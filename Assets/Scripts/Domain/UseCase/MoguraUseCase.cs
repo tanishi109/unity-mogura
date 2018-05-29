@@ -40,9 +40,10 @@ namespace Mogura.Domain.UseCase
                 .Subscribe();
         }
         
-        public void Beat()
+        public int Beat(GameObject obj)
         {
-            // TODO: tapped event
+            GameObject.Destroy(obj); // TODO: access to a static member of a type via a derived type
+            return 1;
         }
         
         IEnumerator Despawn(Model.Mogura mogura)

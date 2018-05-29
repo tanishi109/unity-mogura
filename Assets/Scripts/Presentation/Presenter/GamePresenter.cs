@@ -28,10 +28,16 @@ namespace Mogura.Presentation.Presenter
             return _ucTimer.GetText();
         }
         
-        public void SpawnMogura(Vector3 min, Vector3 max)
+        public static void SpawnMogura(Vector3 min, Vector3 max)
         {
             var uc = new MoguraUseCase();
             uc.Spawn(min, max);
+        }
+        
+        public static int BeatMogura(GameObject obj)
+        {
+            var uc = new MoguraUseCase();
+            return uc.Beat(obj);
         }
     }
 }

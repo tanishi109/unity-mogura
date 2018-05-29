@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Runtime.CompilerServices;
+using UnityEditor;
+using UnityEngine.EventSystems;
+using Mogura.Domain.Model;
 
 namespace Mogura.Presentation.View.Game
 {
@@ -44,14 +47,15 @@ namespace Mogura.Presentation.View.Game
             while (true)
             {
                 yield return new WaitForSeconds(1);
-                this.GetPresenter().SpawnMogura(MoguraPosMin, MoguraPosMax);
+                GamePresenter.SpawnMogura(MoguraPosMin, MoguraPosMax);
             }
         }
 
-        public void BeatMogura()
+        public void BeatMogura(BaseEventData data)
         {
-            Debug.Log("beaten!");
-            ++_score;
+            var pointerEventData = (PointerEventData)data;
+
+            _score += GamePresenter.BeatMogura(pointerEventData.pointerPress);
             _scoreText.text = _score.ToString();
         }
     }
