@@ -17,15 +17,14 @@ namespace Mogura.Domain.UseCase
             protected override void Initialize(TimerUseCase instance)
             {
                 base.Initialize(instance);
-                instance.Init();
             }
         }
         
-        private void Init()
+        public void Init(float sec)
         {
             // TODO: Use object initializer
             _timer = new Model.Timer();
-            _timer.Seconds = 30;
+            _timer.Seconds = sec;
         }
 
         public void Update()

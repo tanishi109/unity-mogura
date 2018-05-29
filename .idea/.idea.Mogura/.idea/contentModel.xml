@@ -538,6 +538,7 @@
               <e p="FugaPresenter.cs" t="Include" />
               <e p="GamePresenter.cs" t="Include" />
               <e p="HogePresenter.cs" t="Include" />
+              <e p="ResultPresenter.cs" t="Include" />
               <e p="TopPresenter.cs" t="Include" />
             </e>
             <e p="View" t="Include">
@@ -548,6 +549,9 @@
                 <e p="Controller.cs" t="Include" />
               </e>
               <e p="Hoge" t="Include">
+                <e p="Controller.cs" t="Include" />
+              </e>
+              <e p="Result" t="Include">
                 <e p="Controller.cs" t="Include" />
               </e>
               <e p="Top" t="Include">

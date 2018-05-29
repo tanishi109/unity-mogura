@@ -17,6 +17,8 @@ namespace Mogura.Presentation.View.Game
         private int _score;
         public Vector3 MoguraPosMin;
         public Vector3 MoguraPosMax;
+        public float Seconds;
+        private System.Action _update;
         
         protected override void OnStart()
         {
@@ -27,13 +29,24 @@ namespace Mogura.Presentation.View.Game
             _scoreText = GameObject.Find("/UI/Canvas/ScoreText").GetComponent<Text>();
             _score = 0;
             
-            this.GetPresenter().InitTimer();
+            this.GetPresenter().InitTimer(Seconds);
             StartCoroutine(SpawnMogura());
+            
+            // TODO: ControllerベタがきになってるのでUseCaseに分離したい
+            _update = () =>
+            {
+                if (_timerText.text == "0")
+                {
+                    this.GetPresenter().GotoResult();
+                    _update = () => {};
+                }
+                UpdateTimer();
+            };
         }
         
         protected void Update()
         {
-            UpdateTimer();
+            _update();
         }
         
         private void UpdateTimer()

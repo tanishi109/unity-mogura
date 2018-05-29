@@ -435,7 +435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: -1
 --- !u!222 &846791424
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -671,6 +671,7 @@ MonoBehaviour:
   preStartComponentList: []
   MoguraPosMin: {x: 0, y: 0, z: 0}
   MoguraPosMax: {x: 580, y: 360, z: 0}
+  Seconds: 3
 --- !u!4 &2093244926
 Transform:
   m_ObjectHideFlags: 0

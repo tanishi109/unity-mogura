@@ -1,6 +1,7 @@
 using CAFU.Core.Presentation.Presenter;
 using Mogura.Domain.UseCase;
-using UnityEditor.Experimental.UIElements.GraphView;
+using CAFU.Routing.Domain.UseCase;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 namespace Mogura.Presentation.Presenter
@@ -17,9 +18,11 @@ namespace Mogura.Presentation.Presenter
             }
         }
 
-        public void InitTimer()
+        public void InitTimer(float sec)
         {
             _ucTimer = new TimerUseCase.Factory().Create();
+            // TODO: Initializeの中で引数付きで呼べたらCreate()だけにできるんだけどな
+            _ucTimer.Init(sec);
         }
 
         public string UpdateTimer()
@@ -38,6 +41,12 @@ namespace Mogura.Presentation.Presenter
         {
             var uc = new MoguraUseCase();
             return uc.Beat(obj);
+        }
+
+        public void GotoResult()
+        {
+            var routing = new RoutingUseCase.Factory().Create();
+            routing.LoadScene("MoguraResult", LoadSceneMode.Additive);
         }
     }
 }
