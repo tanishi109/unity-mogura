@@ -343,9 +343,11 @@
     <Compile Include="Assets\Modules\umm@unirx_observablelifecyclemonobehaviour\Scripts\UniRx\UnityEngineBridge\ObservableLifecycleMonoBehaviour.cs" />
     <Compile Include="Assets\Modules\umm@unirx_observableunitywebrequest\Scripts\UniRx\UnityEngineBridge\ObservableUnityWebRequest.cs" />
     <Compile Include="Assets\Scripts\Data\Entity\ProjectContextEntity.cs" />
+    <Compile Include="Assets\Scripts\Domain\Model\Mogura.cs" />
     <Compile Include="Assets\Scripts\Domain\Model\Timer.cs" />
     <Compile Include="Assets\Scripts\Domain\UseCase\GameUseCase.cs" />
     <Compile Include="Assets\Scripts\Domain\UseCase\HogeUseCase.cs" />
+    <Compile Include="Assets\Scripts\Domain\UseCase\MoguraUseCase.cs" />
     <Compile Include="Assets\Scripts\Domain\UseCase\TimerUseCase.cs" />
     <Compile Include="Assets\Scripts\Domain\UseCase\TopUseCase.cs" />
     <Compile Include="Assets\Scripts\GotoSceneOnClick.cs" />
@@ -928,6 +930,16 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

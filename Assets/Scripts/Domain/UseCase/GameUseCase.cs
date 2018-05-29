@@ -17,10 +17,5 @@ namespace Mogura.Domain.UseCase
                 base.Initialize(instance);
             }
         }
-        
-        public void SpawnMogura()
-        {
-            Debug.Log("spwn mogura");
-        }
     }
 }

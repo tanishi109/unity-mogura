@@ -514,7 +514,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="_Timer.cs" t="Include" />
           <e p="Data" t="Include">
             <e p="Entity" t="Include">
               <e p="ProjectContextEntity.cs" t="Include" />
@@ -522,11 +521,13 @@
           </e>
           <e p="Domain" t="Include">
             <e p="Model" t="Include">
+              <e p="Mogura.cs" t="Include" />
               <e p="Timer.cs" t="Include" />
             </e>
             <e p="UseCase" t="Include">
               <e p="GameUseCase.cs" t="Include" />
               <e p="HogeUseCase.cs" t="Include" />
+              <e p="MoguraUseCase.cs" t="Include" />
               <e p="TimerUseCase.cs" t="Include" />
               <e p="TopUseCase.cs" t="Include" />
             </e>

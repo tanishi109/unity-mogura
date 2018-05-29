@@ -1,5 +1,7 @@
 using CAFU.Core.Presentation.Presenter;
 using Mogura.Domain.UseCase;
+using UnityEditor.Experimental.UIElements.GraphView;
+using UnityEngine;
 
 namespace Mogura.Presentation.Presenter
 {
@@ -26,10 +28,10 @@ namespace Mogura.Presentation.Presenter
             return _ucTimer.GetText();
         }
         
-        public void SpawnMogura()
+        public void SpawnMogura(Vector3 min, Vector3 max)
         {
-            var uc = new GameUseCase();
-            uc.SpawnMogura();
+            var uc = new MoguraUseCase();
+            uc.Spawn(min, max);
         }
     }
 }
