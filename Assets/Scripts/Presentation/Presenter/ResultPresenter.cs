@@ -18,6 +18,7 @@ namespace Mogura.Presentation.Presenter
         public static void RetryGame()
         {
             var routing = new RoutingUseCase.Factory().Create();
+            routing.UnloadScene("MoguraResult");
             routing.LoadScene("MoguraGame", LoadSceneMode.Single);
         }
         
