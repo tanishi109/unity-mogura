@@ -669,6 +669,7 @@ MonoBehaviour:
   preAwakeComponentList: []
   preStartGameObjectList: []
   preStartComponentList: []
+  Score: 0
   MoguraPosMin: {x: 0, y: 0, z: 0}
   MoguraPosMax: {x: 580, y: 360, z: 0}
   Seconds: 3

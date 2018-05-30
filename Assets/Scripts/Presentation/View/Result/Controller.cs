@@ -14,8 +14,15 @@ namespace Mogura.Presentation.View.Result
         protected override void OnStart()
         {
             base.OnStart();
+
+            var gameScene = SceneManager.GetSceneByName("MoguraGame");
+
+            if (!gameScene.IsValid())
+            {
+                return;
+            }
             
-            var controller = SceneManager.GetSceneByName("MoguraGame")
+            var controller = gameScene
                 .GetRootGameObjects()
                 .ToList()
                 .Find(obj => obj.GetComponent<Mogura.Presentation.View.Game.Controller>())
@@ -24,6 +31,16 @@ namespace Mogura.Presentation.View.Result
             // TODO: 名前以外の間違って変えにくい要素を通して取得したい
             _scoreNumText = GameObject.Find("/UI/Canvas/ScoreNumText").GetComponent<Text>();
             _scoreNumText.text = controller.Score.ToString();
+        }
+
+        public void RetryGame()
+        {
+            ResultPresenter.RetryGame();
+        }
+        
+        public void GoBackTop()
+        {
+            ResultPresenter.GoBackTop();
         }
     }
 

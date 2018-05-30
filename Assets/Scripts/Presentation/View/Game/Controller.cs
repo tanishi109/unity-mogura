@@ -3,10 +3,7 @@ using Mogura.Presentation.Presenter;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using System.Runtime.CompilerServices;
-using UnityEditor;
 using UnityEngine.EventSystems;
-using Mogura.Domain.Model;
 
 namespace Mogura.Presentation.View.Game
 {
