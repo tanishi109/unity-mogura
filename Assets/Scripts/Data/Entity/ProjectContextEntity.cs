@@ -1,7 +1,19 @@
-﻿using UnityEngine;
+using CAFU.Core.Data.Entity;
+//
+//namespace Mogura.Data.Entity
+//{
+//    public interface IProjectContextEntity : IEntity
+//    {
+//    }
+//
+//    public class ProjectContextEntity : IProjectContextEntity
+//    {
+//    }
+//}
+using UnityEngine;
 using UnityModule.ContextManagement;
 
-namespace Data.Entity
+namespace Mogura.Data.Entity
 {
     [CreateAssetMenu]
     public class ProjectContextEntity : ScriptableObject, IProjectContext
