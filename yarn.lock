@@ -3,34 +3,34 @@
 
 
 "@umm/assetbundle_management@umm-projects/assetbundle_management#^1.0.0":
-  version "1.3.4"
-  resolved "https://codeload.github.com/umm-projects/assetbundle_management/tar.gz/c0cdeb95138d23273792d32d9ab6c6fa1ff0a81a"
+  version "1.3.5"
+  resolved "https://codeload.github.com/umm-projects/assetbundle_management/tar.gz/a9fe33b3467a3d5d142ee69795b5e17674928a3c"
   dependencies:
     "@umm/context_management" umm-projects/context_management#^1.0.0
     "@umm/scripts" umm-projects/scripts#^1.0.0
-    "@umm/unirx" umm-projects/unirx#^1.0.0
+    "@umm/unirx" umm-projects/unirx#^2.0.0
     "@umm/unirx_observableunitywebrequest" umm-projects/unirx_observableunitywebrequest#^1.0.0
 
 "@umm/cafu_core@umm-projects/cafu_core#^2.0.0":
-  version "2.4.0"
-  resolved "https://codeload.github.com/umm-projects/cafu_core/tar.gz/1f0c2d1b7693e7440ba88dbaecc698d2625d85eb"
+  version "2.5.2"
+  resolved "https://codeload.github.com/umm-projects/cafu_core/tar.gz/c49dc5d14d1d536a9e2927e53493e9f3b63eb4e4"
   dependencies:
     "@umm/cafu_generator" umm-projects/cafu_generator#^1.0.0
     "@umm/scripts" umm-projects/scripts#^1.0.0
-    "@umm/unirx" umm-projects/unirx#^1.0.0
+    "@umm/unirx" umm-projects/unirx#^2.0.0
     "@umm/unirx_observablelifecyclemonobehaviour" umm-projects/unirx_observablelifecyclemonobehaviour#^1.0.0
 
 "@umm/cafu_generator@umm-projects/cafu_generator#^1.0.0":
-  version "1.0.4"
-  resolved "https://codeload.github.com/umm-projects/cafu_generator/tar.gz/cc2e50be93fdc8ac228dfb8b114f0d9e380d513b"
+  version "1.0.6"
+  resolved "https://codeload.github.com/umm-projects/cafu_generator/tar.gz/379f37df21e7b451f7694fdc5048a7a955a5015a"
   dependencies:
     "@umm/context_management" umm-projects/context_management#^1.0.0
     "@umm/extra_linq" umm-projects/extra_linq#^1.0.0
     "@umm/scripts" umm-projects/scripts#^1.0.0
 
 "@umm/cafu_routing@umm-projects/cafu_routing":
-  version "2.3.1"
-  resolved "https://codeload.github.com/umm-projects/cafu_routing/tar.gz/5bf469bf6df162f4309bc1c9ffde80d86937e885"
+  version "2.3.3"
+  resolved "https://codeload.github.com/umm-projects/cafu_routing/tar.gz/39d1b2b3cf82de9ef732c3c4d0ba8a5fce33341c"
   dependencies:
     "@umm/assetbundle_management" umm-projects/assetbundle_management#^1.0.0
     "@umm/cafu_core" umm-projects/cafu_core#^2.0.0
@@ -56,33 +56,32 @@
     "@umm/scripts" umm-projects/scripts#^1.0.0
 
 "@umm/scripts@umm-projects/scripts#^1.0.0":
-  version "1.2.7"
-  resolved "https://codeload.github.com/umm-projects/scripts/tar.gz/a0cc197635e6ae5f75e3c9336369deaaa044ec2b"
+  version "1.3.0"
+  resolved "https://codeload.github.com/umm-projects/scripts/tar.gz/89035e90aa03f3168ee5ca4fa247be0c87ed344f"
   dependencies:
     glob "^7.1.2"
     ignore-walk "^3.0.1"
     mkdirp "^0.5.1"
-    rimraf "^2.6.2"
 
-"@umm/unirx@umm-projects/unirx#^1.0.0":
-  version "1.1.2"
-  resolved "https://codeload.github.com/umm-projects/unirx/tar.gz/0d15edcf8891fba3400e8d8b64dcddfcc3674ded"
+"@umm/unirx@umm-projects/unirx#^2.0.0":
+  version "2.0.0"
+  resolved "https://codeload.github.com/umm-projects/unirx/tar.gz/944237af187fbe823b171ae6dd2fe0e62016b6b5"
   dependencies:
     "@umm/scripts" umm-projects/scripts#^1.0.0
 
 "@umm/unirx_observablelifecyclemonobehaviour@umm-projects/unirx_observablelifecyclemonobehaviour#^1.0.0":
-  version "1.1.2"
-  resolved "https://codeload.github.com/umm-projects/unirx_observablelifecyclemonobehaviour/tar.gz/1ee0280e8613a04ebf17be27ea1f3fe4e2132542"
+  version "1.1.3"
+  resolved "https://codeload.github.com/umm-projects/unirx_observablelifecyclemonobehaviour/tar.gz/6b0eae0a06f9537e4c19506aebdce46d8c272e2d"
   dependencies:
     "@umm/scripts" umm-projects/scripts#^1.0.0
-    "@umm/unirx" umm-projects/unirx#^1.0.0
+    "@umm/unirx" umm-projects/unirx#^2.0.0
 
 "@umm/unirx_observableunitywebrequest@umm-projects/unirx_observableunitywebrequest#^1.0.0":
-  version "1.3.1"
-  resolved "https://codeload.github.com/umm-projects/unirx_observableunitywebrequest/tar.gz/5f378bb959cee1d96eb04e7483ee17bd6d75279a"
+  version "1.3.2"
+  resolved "https://codeload.github.com/umm-projects/unirx_observableunitywebrequest/tar.gz/686a27032b45cce44e14a4bc7c463a6edbcef379"
   dependencies:
     "@umm/scripts" umm-projects/scripts#^1.0.0
-    "@umm/unirx" umm-projects/unirx#^1.0.0
+    "@umm/unirx" umm-projects/unirx#^2.0.0
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -103,7 +102,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-glob@^7.0.5, glob@^7.1.2:
+glob@^7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -156,12 +155,6 @@ once@^1.3.0:
 path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
-
-rimraf@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
-  dependencies:
-    glob "^7.0.5"
 
 wrappy@1:
   version "1.0.2"

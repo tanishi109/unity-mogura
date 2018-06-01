@@ -132,41 +132,37 @@
           </e>
           <e p="umm@cafu_routing" t="Include">
             <e p="Scripts" t="Include">
-              <e p="CAFU" t="Include">
-                <e p="Routing" t="Include">
-                  <e p="Data" t="Include">
-                    <e p="DataStore" t="Include">
-                      <e p="AssetBundleSceneDataStore.cs" t="Include" />
-                      <e p="InBuildSceneDataStore.cs" t="Include" />
-                      <e p="SceneDataStore.cs" t="Include" />
-                      <e p="SceneDataStoreResolver.cs" t="Include" />
-                    </e>
-                    <e p="Entity" t="Include">
-                      <e p="SceneEntity.cs" t="Include" />
-                    </e>
-                  </e>
-                  <e p="Domain" t="Include">
-                    <e p="Model" t="Include">
-                      <e p="SceneModel.cs" t="Include" />
-                    </e>
-                    <e p="Repository" t="Include">
-                      <e p="RoutingRepository.cs" t="Include" />
-                    </e>
-                    <e p="Translator" t="Include">
-                      <e p="RoutingTranslator.cs" t="Include" />
-                    </e>
-                    <e p="UseCase" t="Include">
-                      <e p="RoutingUseCase.cs" t="Include" />
-                    </e>
-                  </e>
-                  <e p="Presentation" t="Include">
-                    <e p="Presenter" t="Include">
-                      <e p="LauncherPresenter.cs" t="Include" />
-                    </e>
-                    <e p="View" t="Include">
-                      <e p="Controller.cs" t="Include" />
-                    </e>
-                  </e>
+              <e p="Data" t="Include">
+                <e p="DataStore" t="Include">
+                  <e p="AssetBundleSceneDataStore.cs" t="Include" />
+                  <e p="InBuildSceneDataStore.cs" t="Include" />
+                  <e p="SceneDataStore.cs" t="Include" />
+                  <e p="SceneDataStoreResolver.cs" t="Include" />
+                </e>
+                <e p="Entity" t="Include">
+                  <e p="SceneEntity.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Domain" t="Include">
+                <e p="Model" t="Include">
+                  <e p="SceneModel.cs" t="Include" />
+                </e>
+                <e p="Repository" t="Include">
+                  <e p="RoutingRepository.cs" t="Include" />
+                </e>
+                <e p="Translator" t="Include">
+                  <e p="RoutingTranslator.cs" t="Include" />
+                </e>
+                <e p="UseCase" t="Include">
+                  <e p="RoutingUseCase.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Presentation" t="Include">
+                <e p="Presenter" t="Include">
+                  <e p="LauncherPresenter.cs" t="Include" />
+                </e>
+                <e p="View" t="Include">
+                  <e p="Controller.cs" t="Include" />
                 </e>
               </e>
             </e>

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Test/test_a.unity
+- path: Assets/Scenes/MoguraTop.unity
   isLoaded: 1
   isActive: 1

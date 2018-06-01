@@ -105,9 +105,9 @@ namespace UnityModule.AssetBundleManagement {
 
         private AssetBundleManifest SingleManifest { get; set; }
 
-        private readonly Dictionary<string, UniRx.IProgress<float>> progressMap = new Dictionary<string, UniRx.IProgress<float>>();
+        private readonly Dictionary<string, IProgress<float>> progressMap = new Dictionary<string, IProgress<float>>();
 
-        private Dictionary<string, UniRx.IProgress<float>> ProgressMap {
+        private Dictionary<string, IProgress<float>> ProgressMap {
             get {
                 return this.progressMap;
             }
@@ -151,7 +151,7 @@ namespace UnityModule.AssetBundleManagement {
             return this.SingleManifest;
         }
 
-        public UniRx.IObservable<AssetBundleManifest> LoadSingleManifestAsObservable() {
+        public IObservable<AssetBundleManifest> LoadSingleManifestAsObservable() {
             return LoadSingleManifest(this.URLResolverSingleManifest)
                 .Select(
                     (singleManifest) => {
@@ -165,7 +165,7 @@ namespace UnityModule.AssetBundleManagement {
                 );
         }
 
-        public UniRx.IObservable<Unit> DownloadAllAsObservable() {
+        public IObservable<Unit> DownloadAllAsObservable() {
             return this
                 // SingleManfiest を読み込む
                 .LoadSingleManifestAsObservable()
@@ -202,13 +202,13 @@ namespace UnityModule.AssetBundleManagement {
                 .AsUnitObservable();
         }
 
-        public UniRx.IObservable<T> LoadAssetAsObservable<T>(string name) where T : Object {
+        public IObservable<T> LoadAssetAsObservable<T>(string name) where T : Object {
             return this.DownloadAllAsObservable()
                 .SelectMany(_ => this.LoadWithDependenciesAsObservable(NameResolverManager.GetNameResolver<T>().Resolve<T>(name)))
                 .Select(assetBundle => LoadAssetFromAssetBundle<T>(assetBundle, NameResolverManager.GetNameResolver<T>().Resolve<T>(name, false)));
         }
 
-        public UniRx.IObservable<float> OnChangeProgressAsObservable() {
+        public IObservable<float> OnChangeProgressAsObservable() {
             return this.ProgressSummary.Select(x => x / this.Count).AsObservable();
         }
 
@@ -228,7 +228,7 @@ namespace UnityModule.AssetBundleManagement {
                 );
         }
 
-        private UniRx.IObservable<AssetBundle> LoadWithDependenciesAsObservable(string assetBundleName) {
+        private IObservable<AssetBundle> LoadWithDependenciesAsObservable(string assetBundleName) {
             if (!this.SingleManifest.GetDirectDependencies(assetBundleName).Any()) {
                 return this.LoadAsObservable(assetBundleName);
             }
@@ -241,7 +241,7 @@ namespace UnityModule.AssetBundleManagement {
                 .SelectMany(_ => this.LoadAsObservable(assetBundleName));
         }
 
-        private UniRx.IObservable<AssetBundle> LoadAsObservable(string assetBundleName) {
+        private IObservable<AssetBundle> LoadAsObservable(string assetBundleName) {
             if (this.LoadedAssetBundleMap.ContainsKey(assetBundleName)) {
                 return Observable.Return(this.LoadedAssetBundleMap[assetBundleName]);
             }
@@ -289,8 +289,8 @@ namespace UnityModule.AssetBundleManagement {
 #endif
         }
 
-        private static UniRx.IObservable<AssetBundle> LoadSingleManifest(IURLResolver urlResolverSingleManifest) {
-            Func<UniRx.IObservable<AssetBundle>> createStream = () => AssetBundle.LoadFromFileAsync(CreateLocalSingleManifestPath()).AsAsyncOperationObservable().Select(assetBundleCreateRequest => assetBundleCreateRequest.assetBundle);
+        private static IObservable<AssetBundle> LoadSingleManifest(IURLResolver urlResolverSingleManifest) {
+            Func<IObservable<AssetBundle>> createStream = () => AssetBundle.LoadFromFileAsync(CreateLocalSingleManifestPath()).AsAsyncOperationObservable().Select(assetBundleCreateRequest => assetBundleCreateRequest.assetBundle);
             if (!HasSingleManifest()) {
                 return ObservableUnityWebRequest
                     .GetData(urlResolverSingleManifest.Resolve())
@@ -302,9 +302,9 @@ namespace UnityModule.AssetBundleManagement {
             return createStream();
         }
 
-        private UniRx.IProgress<float> GetProgress(string assetBundleName) {
+        private IProgress<float> GetProgress(string assetBundleName) {
             if (!this.ProgressMap.ContainsKey(assetBundleName)) {
-                this.ProgressMap[assetBundleName] = new UniRx.Progress<float>(progress => {
+                this.ProgressMap[assetBundleName] = new Progress<float>(progress => {
                     this.ProgressedValueMap[assetBundleName] = progress;
                     this.ProgressSummary.Value = this.ProgressedValueMap.Values.Sum();
                 });
