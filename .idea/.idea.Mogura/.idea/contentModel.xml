@@ -530,7 +530,6 @@
               <e p="TopUseCase.cs" t="Include" />
             </e>
           </e>
-          <e p="GotoSceneOnClick.cs" t="Include" />
           <e p="Presentation" t="Include">
             <e p="Presenter" t="Include">
               <e p=" Presenter.cs" t="Include" />
