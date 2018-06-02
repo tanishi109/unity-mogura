@@ -1,6 +1,7 @@
 using CAFU.Core.Domain.UseCase;
 using CAFU.Routing.Domain.UseCase;
 using Mogura.Domain.Model;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Mogura.Domain.UseCase

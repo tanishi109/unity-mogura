@@ -1,5 +1,7 @@
 using CAFU.Core.Presentation.View;
 using Mogura.Presentation.Presenter;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Mogura.Presentation.View.Loading
 {

@@ -15,11 +15,16 @@ namespace Mogura.Presentation.Presenter
 
         public static void RetryGame()
         {
+            var routing = new CAFU.Routing.Domain.UseCase.RoutingUseCase.Factory().Create();
+            routing.UnloadScene("MoguraGame");
             LoadingOrderUseCase.FromTo("MoguraResult", "MoguraGame");
         }
         
         public static void GoBackTop()
         {
+            // TODO: シーンを出る時にoverkayしてるGameシーンを必ずUnloadしないといけないのどうにかしたい
+            var routing = new CAFU.Routing.Domain.UseCase.RoutingUseCase.Factory().Create();
+            routing.UnloadScene("MoguraGame");
             LoadingOrderUseCase.FromTo("MoguraResult", "MoguraTop");
         }
     }

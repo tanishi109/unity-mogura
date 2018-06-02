@@ -532,7 +532,6 @@
           </e>
           <e p="Presentation" t="Include">
             <e p="Presenter" t="Include">
-              <e p=" Presenter.cs" t="Include" />
               <e p="GamePresenter.cs" t="Include" />
               <e p="InitPresenter.cs" t="Include" />
               <e p="LoadingPresenter.cs" t="Include" />

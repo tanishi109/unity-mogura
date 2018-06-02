@@ -352,7 +352,6 @@
     <Compile Include="Assets\Scripts\Domain\UseCase\MoguraUseCase.cs" />
     <Compile Include="Assets\Scripts\Domain\UseCase\TimerUseCase.cs" />
     <Compile Include="Assets\Scripts\Domain\UseCase\TopUseCase.cs" />
-    <Compile Include="Assets\Scripts\Presentation\Presenter\ Presenter.cs" />
     <Compile Include="Assets\Scripts\Presentation\Presenter\GamePresenter.cs" />
     <Compile Include="Assets\Scripts\Presentation\Presenter\InitPresenter.cs" />
     <Compile Include="Assets\Scripts\Presentation\Presenter\LoadingPresenter.cs" />

@@ -27,18 +27,15 @@ namespace Mogura.Domain.UseCase
         public void TransitScene()
         {
             var routing = new RoutingUseCase.Factory().Create();
+            
             routing.LoadSceneAsObservable(LoadingOrder.To, LoadSceneMode.Additive)
                 .Subscribe(result =>
                 {
-                    if (routing.HasLoaded(LoadingOrder.From))
+                    if (LoadingOrder.Overlay == false)
                     {
                         routing.UnloadScene(LoadingOrder.From);
                     }
-                    if (routing.HasLoaded("MoguraLoading"))
-                    {
-                        routing.UnloadScene("MoguraLoading");
-                    }
-                    // TODO: Unload self
+                    routing.UnloadScene("MoguraLoading");
                 }, error => { }, () => { });
         }
     }
