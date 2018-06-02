@@ -15,8 +15,7 @@ namespace Mogura.Presentation.Presenter
 
         public void GotoGameScene()
         {
-            var uc = new TopUseCase();
-            uc.GotoGameScene();
+            LoadingOrderUseCase.FromTo("MoguraTop", "MoguraGame");
         }
     }
 }

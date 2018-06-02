@@ -517,12 +517,14 @@
           </e>
           <e p="Domain" t="Include">
             <e p="Model" t="Include">
+              <e p="LoadingOrder.cs" t="Include" />
               <e p="Mogura.cs" t="Include" />
               <e p="Timer.cs" t="Include" />
             </e>
             <e p="UseCase" t="Include">
               <e p="GameUseCase.cs" t="Include" />
-              <e p="HogeUseCase.cs" t="Include" />
+              <e p="LoadingOrderUseCase.cs" t="Include" />
+              <e p="LoadingUseCase.cs" t="Include" />
               <e p="MoguraUseCase.cs" t="Include" />
               <e p="TimerUseCase.cs" t="Include" />
               <e p="TopUseCase.cs" t="Include" />
@@ -531,20 +533,24 @@
           <e p="GotoSceneOnClick.cs" t="Include" />
           <e p="Presentation" t="Include">
             <e p="Presenter" t="Include">
-              <e p="FugaPresenter.cs" t="Include" />
+              <e p=" Presenter.cs" t="Include" />
               <e p="GamePresenter.cs" t="Include" />
-              <e p="HogePresenter.cs" t="Include" />
+              <e p="InitPresenter.cs" t="Include" />
+              <e p="LoadingPresenter.cs" t="Include" />
               <e p="ResultPresenter.cs" t="Include" />
               <e p="TopPresenter.cs" t="Include" />
             </e>
             <e p="View" t="Include">
-              <e p="Fuga" t="Include">
-                <e p="Controller.cs" t="Include" />
-              </e>
               <e p="Game" t="Include">
                 <e p="Controller.cs" t="Include" />
               </e>
-              <e p="Hoge" t="Include">
+              <e p="Init" t="Include">
+                <e p="Controller.cs" t="Include" />
+              </e>
+              <e p="Loading" t="Include">
+                <e p="Controller.cs" t="Include" />
+              </e>
+              <e p="MoguraInit" t="Include">
                 <e p="Controller.cs" t="Include" />
               </e>
               <e p="Result" t="Include">

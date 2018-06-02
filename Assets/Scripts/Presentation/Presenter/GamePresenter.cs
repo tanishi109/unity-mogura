@@ -45,8 +45,7 @@ namespace Mogura.Presentation.Presenter
 
         public void GotoResult()
         {
-            var routing = new RoutingUseCase.Factory().Create();
-            routing.LoadScene("MoguraResult", LoadSceneMode.Additive);
+            LoadingOrderUseCase.FromTo("MoguraGame", "MoguraResult", true);
         }
     }
 }

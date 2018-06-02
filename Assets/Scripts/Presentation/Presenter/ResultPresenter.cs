@@ -1,7 +1,5 @@
 using CAFU.Core.Presentation.Presenter;
-using CAFU.Routing.Domain.UseCase;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+using Mogura.Domain.UseCase;
 
 namespace Mogura.Presentation.Presenter
 {
@@ -17,15 +15,12 @@ namespace Mogura.Presentation.Presenter
 
         public static void RetryGame()
         {
-            var routing = new RoutingUseCase.Factory().Create();
-            routing.UnloadScene("MoguraResult");
-            routing.LoadScene("MoguraGame", LoadSceneMode.Single);
+            LoadingOrderUseCase.FromTo("MoguraResult", "MoguraGame");
         }
         
         public static void GoBackTop()
         {
-            var routing = new RoutingUseCase.Factory().Create();
-            routing.LoadScene("MoguraTop", LoadSceneMode.Single);
+            LoadingOrderUseCase.FromTo("MoguraResult", "MoguraTop");
         }
     }
 }
