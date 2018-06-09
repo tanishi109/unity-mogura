@@ -15,6 +15,7 @@ namespace Mogura.Presentation.View.Result
         {
             base.OnStart();
 
+            // TODO: viewに移動する
             var gameScene = SceneManager.GetSceneByName("MoguraGame");
 
             if (!gameScene.IsValid())
@@ -31,6 +32,13 @@ namespace Mogura.Presentation.View.Result
             // TODO: 名前以外の間違って変えにくい要素を通して取得したい
             _scoreNumText = GameObject.Find("/UI/Canvas/ScoreNumText").GetComponent<Text>();
             _scoreNumText.text = controller.Score.ToString();
+            
+            SaveIfRankIn(controller.Score);
+        }
+
+        public void SaveIfRankIn(int score)
+        {
+            ResultPresenter.SaveIfRankIn(score);
         }
 
         public void RetryGame()

@@ -1,4 +1,5 @@
 using CAFU.Core.Presentation.Presenter;
+using Mogura.Domain.Model;
 using Mogura.Domain.UseCase;
 
 namespace Mogura.Presentation.Presenter
@@ -13,6 +14,12 @@ namespace Mogura.Presentation.Presenter
             }
         }
 
+        public static void SaveIfRankIn(int score)
+        {
+            var uc = new RankingUseCase();
+            uc.SaveIfRankIn(score);
+        }
+        
         public static void RetryGame()
         {
             var routing = new CAFU.Routing.Domain.UseCase.RoutingUseCase.Factory().Create();

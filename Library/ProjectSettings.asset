@@ -644,7 +644,7 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 169de5f4-42fa-4b93-8290-297ccac687e7
   projectName: Mogura (2)
   organizationId: note109

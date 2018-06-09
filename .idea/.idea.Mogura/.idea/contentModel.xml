@@ -511,21 +511,34 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Data" t="Include">
+            <e p="DataStore" t="Include">
+              <e p="ScoreDataStore.cs" t="Include" />
+            </e>
             <e p="Entity" t="Include">
               <e p="ProjectContextEntity.cs" t="Include" />
+              <e p="ScoreEntity.cs" t="Include" />
             </e>
           </e>
           <e p="Domain" t="Include">
             <e p="Model" t="Include">
               <e p="LoadingOrder.cs" t="Include" />
               <e p="Mogura.cs" t="Include" />
+              <e p="Ranking.cs" t="Include" />
+              <e p="Score.cs" t="Include" />
               <e p="Timer.cs" t="Include" />
+            </e>
+            <e p="Repository" t="Include">
+              <e p="ScoreRepository.cs" t="Include" />
+            </e>
+            <e p="Translator" t="Include">
+              <e p="ScoreTranslator.cs" t="Include" />
             </e>
             <e p="UseCase" t="Include">
               <e p="GameUseCase.cs" t="Include" />
               <e p="LoadingOrderUseCase.cs" t="Include" />
               <e p="LoadingUseCase.cs" t="Include" />
               <e p="MoguraUseCase.cs" t="Include" />
+              <e p="RankingUseCase.cs" t="Include" />
               <e p="TimerUseCase.cs" t="Include" />
               <e p="TopUseCase.cs" t="Include" />
             </e>
@@ -546,9 +559,6 @@
                 <e p="Controller.cs" t="Include" />
               </e>
               <e p="Loading" t="Include">
-                <e p="Controller.cs" t="Include" />
-              </e>
-              <e p="MoguraInit" t="Include">
                 <e p="Controller.cs" t="Include" />
               </e>
               <e p="Result" t="Include">
