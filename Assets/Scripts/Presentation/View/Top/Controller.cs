@@ -14,6 +14,11 @@ namespace Mogura.Presentation.View.Top
         {
             this.GetPresenter().GotoGameScene();
         }
+
+        public void GotoRankingScene()
+        {
+            this.GetPresenter().GotoRankingScene();
+        }
     }
 
     public static class ViewExtension

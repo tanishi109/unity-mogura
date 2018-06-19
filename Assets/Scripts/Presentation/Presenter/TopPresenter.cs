@@ -17,5 +17,10 @@ namespace Mogura.Presentation.Presenter
         {
             LoadingOrderUseCase.FromTo("MoguraTop", "MoguraGame");
         }
+
+        public void GotoRankingScene()
+        {
+            LoadingOrderUseCase.FromTo("MoguraTop", "MoguraRanking");
+        }
     }
 }

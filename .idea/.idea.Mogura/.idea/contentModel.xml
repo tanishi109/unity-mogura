@@ -539,6 +539,7 @@
               <e p="LoadingUseCase.cs" t="Include" />
               <e p="MoguraUseCase.cs" t="Include" />
               <e p="RankingUseCase.cs" t="Include" />
+              <e p="ResultUseCase.cs" t="Include" />
               <e p="TimerUseCase.cs" t="Include" />
               <e p="TopUseCase.cs" t="Include" />
             </e>
@@ -548,6 +549,7 @@
               <e p="GamePresenter.cs" t="Include" />
               <e p="InitPresenter.cs" t="Include" />
               <e p="LoadingPresenter.cs" t="Include" />
+              <e p="RankingPresenter.cs" t="Include" />
               <e p="ResultPresenter.cs" t="Include" />
               <e p="TopPresenter.cs" t="Include" />
             </e>
@@ -559,6 +561,9 @@
                 <e p="Controller.cs" t="Include" />
               </e>
               <e p="Loading" t="Include">
+                <e p="Controller.cs" t="Include" />
+              </e>
+              <e p="Ranking" t="Include">
                 <e p="Controller.cs" t="Include" />
               </e>
               <e p="Result" t="Include">

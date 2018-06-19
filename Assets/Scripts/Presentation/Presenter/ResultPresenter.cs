@@ -16,7 +16,7 @@ namespace Mogura.Presentation.Presenter
 
         public static void SaveIfRankIn(int score)
         {
-            var uc = new RankingUseCase();
+            var uc = new ResultUseCase();
             uc.SaveIfRankIn(score);
         }
         

@@ -1,12 +1,9 @@
-using System;
 using System.Linq;
-using System.Xml;
 using CAFU.Core.Domain.UseCase;
-using Mogura.Data.Entity;
+using UnityEngine;
+using UnityEngine.UI;
 using Mogura.Domain.Model;
 using Mogura.Domain.Repository;
-using Mogura.Domain.Translator;
-using UnityEngine;
 
 namespace Mogura.Domain.UseCase
 {
@@ -24,32 +21,16 @@ namespace Mogura.Domain.UseCase
             }
         }
 
-        public void SaveIfRankIn(int scoreNum)
+        public void InitList(Transform parentTransform, RectTransform listItemPrefab)
         {
-            var scoreEntities = ScoreRepository.GetScoreEntities(Ranking.Size);
-            var currentScore = new Score(scoreNum);
-            var ranking = ScoreTranslator.TranslateAsRanking(scoreEntities);
-            var rank = ranking.GetRank(currentScore);
-            var rankedIn = rank != -1;
-            
-            if (!rankedIn)
-            {
-                return;
-            }
-
-            // TODO: 連結リストのほうが挿入が楽かな？
-            var currentScoreEntity = ScoreTranslator.TranslateAsScoreEntity(currentScore);
-            var updatedScoreEntities = scoreEntities.ToList();
-            
-            updatedScoreEntities.Insert(rank, currentScoreEntity);
-            ScoreRepository.SaveScore(updatedScoreEntities.Take(5).ToArray());
-            
-            Debug.Log("-----result-----");
-            // TODO: remove debug log
             var result = ScoreRepository.GetScoreEntities(Ranking.Size);
             foreach (var r in result)
             {
-                Debug.Log(r.ScoreNum);
+                var listItem= Object.Instantiate(listItemPrefab) as RectTransform;
+                listItem.SetParent(parentTransform, false);
+
+                var listText = listItem.GetComponentsInChildren<Text>().Where(x => x.name == "ScoreNum").ToList()[0];
+                listText.text = r.ScoreNum.ToString();
             }
         }
     }
