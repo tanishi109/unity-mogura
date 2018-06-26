@@ -1,0 +1,12 @@
+{
+    "name": "umm@scene_attribute-Editor",
+    "references": [
+        "umm@scene_attribute"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

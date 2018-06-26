@@ -1,0 +1,12 @@
+{
+  "name": "umm@assetbundle_management",
+  "references": [
+    "umm@context_management",
+    "umm@unirx",
+    "umm@unirx_observableunitywebrequest"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false
+}

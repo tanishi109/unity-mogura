@@ -1,0 +1,11 @@
+{
+    "name": "umm@cafu_core",
+    "references": [
+        "umm@unirx",
+        "umm@unirx_observablelifecyclemonobehaviour"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

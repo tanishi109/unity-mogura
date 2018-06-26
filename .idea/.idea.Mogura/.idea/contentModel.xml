@@ -130,6 +130,39 @@
               </e>
             </e>
           </e>
+          <e p="umm@cafu_music" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Data" t="Include">
+                <e p="DataStore" t="Include">
+                  <e p="MusicDataStore.cs" t="Include" />
+                  <e p="MusicDataStoreMultiple.cs" t="Include" />
+                  <e p="MusicDataStoreSingle.cs" t="Include" />
+                </e>
+                <e p="Entity" t="Include">
+                  <e p="MusicEntity.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Domain" t="Include">
+                <e p="Component" t="Include">
+                  <e p="MusicPlayer.cs" t="Include" />
+                </e>
+                <e p="Model" t="Include">
+                  <e p="MusicModel.cs" t="Include" />
+                </e>
+                <e p="Repository" t="Include">
+                  <e p="MusicRepository.cs" t="Include" />
+                </e>
+                <e p="UseCase" t="Include">
+                  <e p="MusicUseCase.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Presentation" t="Include">
+                <e p="Presenter" t="Include">
+                  <e p="MusicPresenter.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="umm@cafu_routing" t="Include">
             <e p="Scripts" t="Include">
               <e p="Data" t="Include">
@@ -214,12 +247,14 @@
             </e>
           </e>
           <e p="umm@scene_attribute" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="Editor" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Scripts" t="Include">
                 <e p="UnityModule" t="Include">
                   <e p="SceneAttributeDrawer.cs" t="Include" />
                 </e>
               </e>
+            </e>
+            <e p="Scripts" t="Include">
               <e p="UnityModule" t="Include">
                 <e p="SceneAttribute.cs" t="Include" />
               </e>
@@ -510,11 +545,16 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Constants" t="Include">
+            <e p="MusicName.cs" t="Include" />
+          </e>
           <e p="Data" t="Include">
             <e p="DataStore" t="Include">
+              <e p="MusicDataStore.cs" t="Include" />
               <e p="ScoreDataStore.cs" t="Include" />
             </e>
             <e p="Entity" t="Include">
+              <e p="MusicEntity.cs" t="Include" />
               <e p="ProjectContextEntity.cs" t="Include" />
               <e p="ScoreEntity.cs" t="Include" />
             </e>
@@ -583,6 +623,17 @@
       <e p="Temp" t="ExcludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
       </e>
+      <e p="umm@assetbundle_management-Editor.csproj" t="IncludeRecursive" />
+      <e p="umm@assetbundle_management.csproj" t="IncludeRecursive" />
+      <e p="umm@cafu_core.csproj" t="IncludeRecursive" />
+      <e p="umm@cafu_music.csproj" t="IncludeRecursive" />
+      <e p="umm@cafu_routing.csproj" t="IncludeRecursive" />
+      <e p="umm@context_management.csproj" t="IncludeRecursive" />
+      <e p="umm@scene_attribute-Editor.csproj" t="IncludeRecursive" />
+      <e p="umm@scene_attribute.csproj" t="IncludeRecursive" />
+      <e p="umm@unirx.csproj" t="IncludeRecursive" />
+      <e p="umm@unirx_observablelifecyclemonobehaviour.csproj" t="IncludeRecursive" />
+      <e p="umm@unirx_observableunitywebrequest.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

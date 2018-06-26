@@ -52,9 +52,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Modules\umm@assetbundle_management\Editor\Scripts\UnityModule\AssetBundleManagement\AssetBundleBuildOptions.cs" />
-    <Compile Include="Assets\Modules\umm@assetbundle_management\Editor\Scripts\UnityModule\AssetBundleManagement\AssetBundleNameHandler.cs" />
-    <Compile Include="Assets\Modules\umm@assetbundle_management\Editor\Scripts\UnityModule\AssetBundleManagement\AssetBundleNameResolver.cs" />
     <Compile Include="Assets\Modules\umm@cafu_generator\Scripts\Editor\ClassStructure.cs" />
     <Compile Include="Assets\Modules\umm@cafu_generator\Scripts\Editor\Enumerates.cs" />
     <Compile Include="Assets\Modules\umm@cafu_generator\Scripts\Editor\GeneratorWindow.cs" />
@@ -73,7 +70,6 @@
     <Compile Include="Assets\Modules\umm@cafu_generator\Scripts\Editor\Structure\Class\Presentation\View.cs" />
     <Compile Include="Assets\Modules\umm@cafu_generator\Scripts\Editor\Structure\Partial\Factory.cs" />
     <Compile Include="Assets\Modules\umm@cafu_generator\Scripts\Editor\Structure\Partial\StartMethod.cs" />
-    <Compile Include="Assets\Modules\umm@scene_attribute\Scripts\Editor\UnityModule\SceneAttributeDrawer.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/note109/Workspace/Unity/Mogura/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -694,6 +690,50 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{05F628A7-4AB2-4259-FC8F-7920D0A1051E}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@assetbundle_management-Editor.csproj">
+      <Project>{06B97EDD-925E-4D68-7E97-3E00AC3D11C4}</Project>
+      <Name>umm@assetbundle_management-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@cafu_music.csproj">
+      <Project>{11AB9646-DBED-6000-2FFD-22CA1AE9233A}</Project>
+      <Name>umm@cafu_music</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@scene_attribute.csproj">
+      <Project>{2E7D0D9A-3543-5FC2-DE96-86B130F7DA2C}</Project>
+      <Name>umm@scene_attribute</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@unirx_observablelifecyclemonobehaviour.csproj">
+      <Project>{AADFD099-BE41-A6D8-DFD5-683FB31FE49F}</Project>
+      <Name>umm@unirx_observablelifecyclemonobehaviour</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@unirx.csproj">
+      <Project>{CDDBE7D0-60C3-60AF-1469-A91237FEA15D}</Project>
+      <Name>umm@unirx</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@assetbundle_management.csproj">
+      <Project>{362123DB-040F-3227-D90A-285AD0A8A312}</Project>
+      <Name>umm@assetbundle_management</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@scene_attribute-Editor.csproj">
+      <Project>{DA4F834C-E2FE-E52B-C068-ACBEB3AF076E}</Project>
+      <Name>umm@scene_attribute-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@cafu_core.csproj">
+      <Project>{C95AEFF7-87C5-0535-9985-A4FEFDACD58B}</Project>
+      <Name>umm@cafu_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@cafu_routing.csproj">
+      <Project>{5303889E-CEDD-77B3-D1B4-53003EC4B68B}</Project>
+      <Name>umm@cafu_routing</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@unirx_observableunitywebrequest.csproj">
+      <Project>{4D417711-33E0-35F6-CA7B-91B97C227B07}</Project>
+      <Name>umm@unirx_observableunitywebrequest</Name>
+    </ProjectReference>
+    <ProjectReference Include="umm@context_management.csproj">
+      <Project>{604B792A-BD62-7DDB-3010-AF90D0CDCA00}</Project>
+      <Name>umm@context_management</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

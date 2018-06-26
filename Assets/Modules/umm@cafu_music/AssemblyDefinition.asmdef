@@ -1,0 +1,12 @@
+{
+    "name": "umm@cafu_music",
+    "references": [
+        "umm@cafu_core",
+        "umm@unirx",
+        "umm@unirx_observablelifecyclemonobehaviour"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

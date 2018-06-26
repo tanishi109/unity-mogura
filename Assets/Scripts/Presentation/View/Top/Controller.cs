@@ -1,5 +1,7 @@
 using CAFU.Core.Presentation.View;
 using Mogura.Presentation.Presenter;
+using CAFU.Music.Presentation.Presenter;
+using Mogura.Constants;
 
 namespace Mogura.Presentation.View.Top
 {
@@ -8,6 +10,8 @@ namespace Mogura.Presentation.View.Top
         protected override void OnStart()
         {
             base.OnStart();
+            
+            this.GetPresenter().PlayMusic(MusicName.Top, true, true);
         }
 
         public void GotoGameScene()

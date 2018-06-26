@@ -1,0 +1,12 @@
+{
+    "name": "umm@assetbundle_management-Editor",
+    "references": [
+        "umm@assetbundle_management"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
