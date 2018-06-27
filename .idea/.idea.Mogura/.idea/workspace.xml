@@ -2,270 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86b48298-986b-41c7-a212-aa13a45a2e5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mogura/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mogura/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mogura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mogura/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/umm@cafu_core/Scripts/Presentation/View/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/umm@cafu_core/Scripts/Presentation/View/View.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/umm@cafu_routing/Scripts/Domain/Translator/RoutingTranslator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/umm@cafu_routing/Scripts/Domain/Translator/RoutingTranslator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/umm@cafu_routing/Scripts/Domain/UseCase/RoutingUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/umm@cafu_routing/Scripts/Domain/UseCase/RoutingUseCase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/umm@scene_attribute/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/umm@scene_attribute/Scripts/Editor/UnityModule.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/umm@scene_attribute/Scripts/Editor/UnityModule/SceneAttributeDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/umm@scene_attribute/Scripts/Editor/UnityModule/SceneAttributeDrawer.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MoguraGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MoguraGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MoguraLoading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MoguraLoading.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MoguraTop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MoguraTop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/TopPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/TopPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Presentation/View/Top/Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Presentation/View/Top/Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/スクリーンショット 2018-05-29 0.22.20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/スクリーンショット 2018-05-29 0.22.20.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/0d/0d4f569b762e44fa8beeb3b9bcfdf31b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0d/0d4f569b762e44fa8beeb3b9bcfdf31b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/0d/0d4f569b762e44fa8beeb3b9bcfdf31b.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0d/0d4f569b762e44fa8beeb3b9bcfdf31b.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/0d/0dc01ec8f43bf44dd98ed3c64a9f73cb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0d/0dc01ec8f43bf44dd98ed3c64a9f73cb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/0d/0dc01ec8f43bf44dd98ed3c64a9f73cb.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0d/0dc01ec8f43bf44dd98ed3c64a9f73cb.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/28/2897e51353ddb478a89aab95bf112176" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/28/2897e51353ddb478a89aab95bf112176" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/28/2897e51353ddb478a89aab95bf112176.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/28/2897e51353ddb478a89aab95bf112176.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2c/2c3d5f78c3db04a8898cc9684108d46e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2c/2c3d5f78c3db04a8898cc9684108d46e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2c/2c3d5f78c3db04a8898cc9684108d46e.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2c/2c3d5f78c3db04a8898cc9684108d46e.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2d/2d453b76cfdff4a49ae589e275d4a347" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2d/2d453b76cfdff4a49ae589e275d4a347" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/34/342751535dc9b488789cfd9b79fcd9ef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/34/342751535dc9b488789cfd9b79fcd9ef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/34/342751535dc9b488789cfd9b79fcd9ef.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/34/342751535dc9b488789cfd9b79fcd9ef.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/45/4533e768ef1ee486fabc9912c94bb548" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/45/4533e768ef1ee486fabc9912c94bb548" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/45/4533e768ef1ee486fabc9912c94bb548.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/45/4533e768ef1ee486fabc9912c94bb548.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/5b/5b0857b3d6e8d4179a2e79a59323515f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5b/5b0857b3d6e8d4179a2e79a59323515f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/5b/5b0857b3d6e8d4179a2e79a59323515f.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5b/5b0857b3d6e8d4179a2e79a59323515f.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/5b/5be1a45f6bc064978b8b4dcf6f328886" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5b/5be1a45f6bc064978b8b4dcf6f328886" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/5b/5be1a45f6bc064978b8b4dcf6f328886.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5b/5be1a45f6bc064978b8b4dcf6f328886.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/5c/5c84c31a64fc447b2b574d159d40ef7f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5c/5c84c31a64fc447b2b574d159d40ef7f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/5c/5c84c31a64fc447b2b574d159d40ef7f.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5c/5c84c31a64fc447b2b574d159d40ef7f.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/81/811b60707769d4995a5c1f972375a133" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/81/811b60707769d4995a5c1f972375a133" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/81/811b60707769d4995a5c1f972375a133.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/81/811b60707769d4995a5c1f972375a133.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/9a/9a6b8d310eb894e099fefcfa11e16889" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9a/9a6b8d310eb894e099fefcfa11e16889" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/aa/aaeb40f31d1bf41df87cc407919687fe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/aa/aaeb40f31d1bf41df87cc407919687fe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/aa/aaeb40f31d1bf41df87cc407919687fe.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/aa/aaeb40f31d1bf41df87cc407919687fe.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b2/b289acae7b53d45928d2b0d92590d7ec" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b2/b289acae7b53d45928d2b0d92590d7ec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b2/b289acae7b53d45928d2b0d92590d7ec.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b2/b289acae7b53d45928d2b0d92590d7ec.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b8/b843f30aefdba47d392aa54756e76bac" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b8/b843f30aefdba47d392aa54756e76bac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b8/b843f30aefdba47d392aa54756e76bac.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b8/b843f30aefdba47d392aa54756e76bac.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/c9/c95ce35e292e74a9db04c41cd8cb30c1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c9/c95ce35e292e74a9db04c41cd8cb30c1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/c9/c95ce35e292e74a9db04c41cd8cb30c1.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c9/c95ce35e292e74a9db04c41cd8cb30c1.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/cd/cd19d690ec2db4685aa710c6c97ccaac" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/cd/cd19d690ec2db4685aa710c6c97ccaac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mogura.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Mogura.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/assetbundle_management/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/assetbundle_management/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_core/Assets/Scripts/Presentation/View/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/cafu_core/Assets/Scripts/Presentation/View/View.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/cafu_core/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/cafu_core/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/ClassStructure.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/ClassStructure.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Enumerates.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Enumerates.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/GeneratorWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/GeneratorWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Parameter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Parameter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/PartialStructure.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/PartialStructure.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/ScriptGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/ScriptGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Data/DataStore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Data/DataStore.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Data/Entity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Data/Entity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain/Model.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain/Model.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain/Repository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain/Repository.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain/Translator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain/Translator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain/UseCase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Domain/UseCase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Presentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Presentation/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Presentation/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Presentation/Presenter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Presentation/Presenter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Presentation/View.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Class/Presentation/View.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Partial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Partial/Factory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Partial/Factory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Partial/StartMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Scripts/Editor/Structure/Partial/StartMethod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Data/DataStore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Data/DataStore.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Data/Entity.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Data/Entity.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain/Model.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain/Model.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain/Repository.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain/Repository.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain/Translator.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain/Translator.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain/UseCase.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Domain/UseCase.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Presentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Presentation/Controller.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Presentation/Controller.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Presentation/Presenter.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Presentation/Presenter.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Presentation/View.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Class/Presentation/View.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Partial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Partial/Factory.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Partial/Factory.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Partial/MonoBehaviour.Start.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Partial/MonoBehaviour.Start.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Partial/UIBehaviour.Start.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Assets/Templates/Partial/UIBehaviour.Start.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/NetworkManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/PresetManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_generator/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_routing/Assets/Scripts/Domain/Translator/RoutingTranslator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/cafu_routing/Assets/Scripts/Domain/Translator/RoutingTranslator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_routing/Assets/Scripts/Domain/UseCase/RoutingUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/cafu_routing/Assets/Scripts/Domain/UseCase/RoutingUseCase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/cafu_routing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/cafu_routing/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/context_management/UnityPackageManager/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/context_management/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/context_management/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/EnumerableExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/EnumerableExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/ExtraLinq.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/ExtraLinq.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Chunk.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Chunk.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Cycle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Cycle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Distinct.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Distinct.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Each.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Each.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Flatten.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Flatten.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/HasAtLeast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/HasAtLeast.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/HasAtMost.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/HasAtMost.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/HasExactly.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/HasExactly.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Intersperse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Intersperse.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/IsEmpty.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/IsEmpty.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/IsNullOrEmpty.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/IsNullOrEmpty.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/JoinedBy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/JoinedBy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/None.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/None.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Partition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Partition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Random.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Random.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Repeat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Repeat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Shuffle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Shuffle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/TakeSkip.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/TakeSkip.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/ToHashSet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/ToHashSet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/WhereNot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/WhereNot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Without.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IEnumerable/Without.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IntExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/IntExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/NameValueCollection.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/NameValueCollection/ToDictionary.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/NameValueCollection/ToDictionary.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/NameValueCollection/ToKeyValuePairs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/NameValueCollection/ToKeyValuePairs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/PartitionedSequence.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/PartitionedSequence.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/ThrowIf.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/Assets/ExtraLINQ/ThrowIf.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/NetworkManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/UnityPackageManager/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/extra_linq/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scene_attribute/Assets/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scene_attribute/Assets/Scripts/Editor/UnityModule.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scene_attribute/Assets/Scripts/Editor/UnityModule/SceneAttributeDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scene_attribute/Assets/Scripts/Editor/UnityModule/SceneAttributeDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scene_attribute/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/scene_attribute/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scripts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/scripts/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scripts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/scripts/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scripts/src/generate_assembly_definition.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/scripts/src/generate_assembly_definition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/scripts/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/unirx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/unirx/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/unirx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/unirx/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/unirx_observablelifecyclemonobehaviour/UnityPackageManager/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/unirx_observablelifecyclemonobehaviour/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/unirx_observablelifecyclemonobehaviour/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/unirx_observableunitywebrequest/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/unirx_observableunitywebrequest/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/unirx_observableunitywebrequest/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@umm/unirx_observableunitywebrequest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@umm/unirx_observableunitywebrequest/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -276,95 +21,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MusicName.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Constants/MusicName.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-              <folding>
-                <marker date="1529644563734" expanded="true" signature="55:75" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MusicEntity.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/Entity/MusicEntity.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <marker date="1529642866370" expanded="false" signature="6:67" ph="..." />
-                <marker date="1529642866370" expanded="true" signature="172:184" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MusicDataStore.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataStore/MusicDataStore.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-              <folding>
-                <marker date="1529643445639" expanded="false" signature="6:114" ph="..." />
-                <marker date="1529643445639" expanded="true" signature="199:211" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Controller.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Top/Controller.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Game/Controller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="1035">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
-                <marker date="1529644997517" expanded="false" signature="6:136" ph="..." />
-                <marker date="1529644997517" expanded="true" signature="176:858" ph="{...}" />
-                <marker date="1529644997517" expanded="true" signature="267:670" ph="{...}" />
-                <marker date="1529644997517" expanded="true" signature="315:446" ph="{...}" />
-                <marker date="1529644997517" expanded="true" signature="483:552" ph="{...}" />
-                <marker date="1529644997517" expanded="true" signature="592:664" ph="{...}" />
-                <marker date="1529644997517" expanded="true" signature="709:856" ph="{...}" />
-                <marker date="1529644997517" expanded="true" signature="780:850" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="6:170" ph="..." />
+                <marker date="1530110668285" expanded="true" signature="304:2110" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="596:1347" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="1103:1336" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="1161:1291" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="1388:1431" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="1475:1599" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="1650:1846" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="1685:1836" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="1898:2104" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="2149:2297" ph="{...}" />
+                <marker date="1530110668285" expanded="true" signature="2221:2291" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultPresenter.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/ResultPresenter.cs">
+      <file leaf-file-name="GamePresenter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/GamePresenter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="523">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
-                <marker date="1529379363397" expanded="false" signature="6:95" ph="..." />
-                <marker date="1529379363397" expanded="true" signature="136:1211" ph="{...}" />
-                <marker date="1529379363397" expanded="true" signature="184:1209" ph="{...}" />
-                <marker date="1529379363397" expanded="true" signature="262:426" ph="{...}" />
-                <marker date="1529379363397" expanded="true" signature="345:416" ph="{...}" />
-                <marker date="1529379363397" expanded="true" signature="478:576" ph="{...}" />
-                <marker date="1529379363397" expanded="true" signature="624:854" ph="{...}" />
-                <marker date="1529379363397" expanded="true" signature="902:1203" ph="{...}" />
+                <marker date="1527928540985" expanded="false" signature="6:157" ph="..." />
+                <marker date="1527928540985" expanded="true" signature="198:1337" ph="{...}" />
+                <marker date="1527928540985" expanded="true" signature="244:1335" ph="{...}" />
+                <marker date="1527928540985" expanded="true" signature="368:530" ph="{...}" />
+                <marker date="1527928540985" expanded="true" signature="449:520" ph="{...}" />
+                <marker date="1527928540985" expanded="true" signature="572:747" ph="{...}" />
+                <marker date="1527928540985" expanded="true" signature="784:874" ph="{...}" />
+                <marker date="1527928540985" expanded="true" signature="948:1042" ph="{...}" />
+                <marker date="1527928540985" expanded="true" signature="1104:1199" ph="{...}" />
+                <marker date="1527928540985" expanded="true" signature="1233:1329" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopPresenter.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/TopPresenter.cs">
+      <file leaf-file-name="MoguraUseCase.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
               <folding>
-                <marker date="1529644525418" expanded="true" signature="6:166" ph="..." />
-                <marker date="1529644525418" expanded="true" signature="207:950" ph="{...}" />
-                <marker date="1529644525418" expanded="true" signature="280:948" ph="{...}" />
-                <marker date="1529644525418" expanded="true" signature="355:604" ph="{...}" />
-                <marker date="1529644525418" expanded="true" signature="435:594" ph="{...}" />
-                <marker date="1529644525418" expanded="true" signature="725:812" ph="{...}" />
-                <marker date="1529644525418" expanded="true" signature="852:942" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="6:226" ph="..." />
+                <marker date="1530112007222" expanded="true" signature="259:2186" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="308:320" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="369:2184" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="443:605" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="524:595" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="666:1181" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="1230:1589" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="1364:1418" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="1656:1761" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="1811:2178" ph="{...}" />
+                <marker date="1530112007222" expanded="true" signature="2021:2168" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -374,8 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Root</find>
-      <find>RootGame</find>
       <find>MoguraResult</find>
       <find>var routing</find>
       <find>var uc =</find>
@@ -404,6 +120,8 @@
       <find>Where(</find>
       <find>Result</find>
       <find>Ranking</find>
+      <find>BeatMogura</find>
+      <find>Despawn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -414,7 +132,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_routing/Scripts/Data/DataStore/SceneDataStoreResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@unirx/Scripts/UnityEngineBridge/AsyncOperationExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Top/Controller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Game/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Game/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@unirx/Scripts/UnityEngineBridge/TypedMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@unirx/Scripts/Observable.Creation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Init/Controller.cs" root0="FORCE_HIGHLIGHTING" />
@@ -427,12 +145,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Ranking/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/TopPresenter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/InitPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/GamePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/GamePresenter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/LoadingPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@assetbundle_management/Editor/Scripts/UnityModule/AssetBundleManagement/AssetBundleNameHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/RankingPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/RankingUseCase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/ResultPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/ResultPresenter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_core/Scripts/Domain/UseCase/UseCase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_core/Scripts/Domain/Translator/Translator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_core/Scripts/Utility/Factory.cs" root0="FORCE_HIGHLIGHTING" />
@@ -457,11 +175,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/Model/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/Model/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/Model/Mogura.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/LoadingUseCase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/umm@unirx/Scripts/UnityEngineBridge/ObserveExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/TopUseCase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/GameUseCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/GameUseCase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/LoadingOrderUseCase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/TimerUseCase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Domain/Repository/ScoreRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -485,17 +203,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Domain/Model/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/GameUseCase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Domain/Model/Mogura.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/TimerUseCase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Entity/ProjectContextEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/View/Game/Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/LoadingPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/MoguraInitPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/View/MoguraInit/Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/TopUseCase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/InitPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Domain/Model/LoadingOrder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/GamePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/View/Loading/Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/LoadingOrderUseCase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/LoadingUseCase.cs" />
@@ -524,6 +239,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/TopPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Constants/MusicName.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/View/Top/Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/GamePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Presentation/View/Game/Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs" />
       </list>
     </option>
   </component>
@@ -541,9 +259,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="70" />
+  <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -552,10 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -573,12 +285,16 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="constants mu&#9;null&#9;null&#10;musicdatas&#9;null&#9;null&#10;resultpre&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Presentation/Presenter/ResultPresenter.cs&#10;loadingorder&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Domain/Model/LoadingOrder.cs&#10;loading/con&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Presentation/View/Loading/Controller.cs&#10;loadingo&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Domain/Model/LoadingOrder.cs&#10;SceneDataStoreResolver&#9;null&#9;null&#10;routing&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Modules/umm@cafu_routing/Scripts/CAFU/Routing/Domain/UseCase/RoutingUseCase.cs&#10;routingRepo&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="mogurau&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs&#10;gamepresen&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Presentation/Presenter/GamePresenter.cs&#10;constants mu&#9;null&#9;null&#10;musicdatas&#9;null&#9;null&#10;resultpre&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Presentation/Presenter/ResultPresenter.cs&#10;loadingorder&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Domain/Model/LoadingOrder.cs&#10;loading/con&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Presentation/View/Loading/Controller.cs&#10;loadingo&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Scripts/Domain/Model/LoadingOrder.cs&#10;SceneDataStoreResolver&#9;null&#9;null&#10;routing&#9;FILE&#9;file:///Users/note109/Workspace/Unity/Mogura/Assets/Modules/umm@cafu_routing/Scripts/CAFU/Routing/Domain/UseCase/RoutingUseCase.cs&#10;routingRepo&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -621,12 +337,14 @@
       <workItem from="1529639657364" duration="617000" />
       <workItem from="1529642821104" duration="958000" />
       <workItem from="1529644140577" duration="887000" />
-      <workItem from="1530014213258" duration="267000" />
+      <workItem from="1530014213258" duration="544000" />
+      <workItem from="1530109480620" duration="1681000" />
+      <workItem from="1530111363818" duration="1308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74273000" />
+    <option name="totallyTimeSpent" value="77539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,24 +356,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23819743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="12" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -678,13 +395,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/HogeUseCase.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/HogePresenter.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Hoge/Controller.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/GameUseCase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/Entity/ProjectContextEntity.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -740,13 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -855,13 +558,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Domain/Translator/ScoreTranslator.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/GamePresenter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_generator/Scripts/Editor/ScriptGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -897,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Game/Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Init/Controller.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -925,17 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataStore/MusicDataStore.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <marker date="1529643445639" expanded="false" signature="6:114" ph="..." />
-            <marker date="1529643445639" expanded="true" signature="199:211" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Modules/umm@cafu_music/Scripts/Domain/Repository/MusicRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -943,19 +621,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/TopPresenter.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/GameUseCase.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Top/Controller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <marker date="1529644525418" expanded="true" signature="6:166" ph="..." />
-            <marker date="1529644525418" expanded="true" signature="207:950" ph="{...}" />
-            <marker date="1529644525418" expanded="true" signature="280:948" ph="{...}" />
-            <marker date="1529644525418" expanded="true" signature="355:604" ph="{...}" />
-            <marker date="1529644525418" expanded="true" signature="435:594" ph="{...}" />
-            <marker date="1529644525418" expanded="true" signature="725:812" ph="{...}" />
-            <marker date="1529644525418" expanded="true" signature="852:942" ph="{...}" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Data/DataStore/MusicDataStore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -963,10 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1529642866370" expanded="false" signature="6:67" ph="..." />
-            <marker date="1529642866370" expanded="true" signature="172:184" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,42 +649,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding>
-            <marker date="1529644563734" expanded="true" signature="55:75" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Top/Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <marker date="1529644997517" expanded="false" signature="6:136" ph="..." />
-            <marker date="1529644997517" expanded="true" signature="176:858" ph="{...}" />
-            <marker date="1529644997517" expanded="true" signature="267:670" ph="{...}" />
-            <marker date="1529644997517" expanded="true" signature="315:446" ph="{...}" />
-            <marker date="1529644997517" expanded="true" signature="483:552" ph="{...}" />
-            <marker date="1529644997517" expanded="true" signature="592:664" ph="{...}" />
-            <marker date="1529644997517" expanded="true" signature="709:856" ph="{...}" />
-            <marker date="1529644997517" expanded="true" signature="780:850" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/ResultPresenter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/TopPresenter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/View/Game/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
-            <marker date="1529379363397" expanded="false" signature="6:95" ph="..." />
-            <marker date="1529379363397" expanded="true" signature="136:1211" ph="{...}" />
-            <marker date="1529379363397" expanded="true" signature="184:1209" ph="{...}" />
-            <marker date="1529379363397" expanded="true" signature="262:426" ph="{...}" />
-            <marker date="1529379363397" expanded="true" signature="345:416" ph="{...}" />
-            <marker date="1529379363397" expanded="true" signature="478:576" ph="{...}" />
-            <marker date="1529379363397" expanded="true" signature="624:854" ph="{...}" />
-            <marker date="1529379363397" expanded="true" signature="902:1203" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="6:170" ph="..." />
+            <marker date="1530110668285" expanded="true" signature="304:2110" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="596:1347" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="1103:1336" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="1161:1291" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="1388:1431" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="1475:1599" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="1650:1846" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="1685:1836" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="1898:2104" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="2149:2297" ph="{...}" />
+            <marker date="1530110668285" expanded="true" signature="2221:2291" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Presentation/Presenter/GamePresenter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <marker date="1527928540985" expanded="false" signature="6:157" ph="..." />
+            <marker date="1527928540985" expanded="true" signature="198:1337" ph="{...}" />
+            <marker date="1527928540985" expanded="true" signature="244:1335" ph="{...}" />
+            <marker date="1527928540985" expanded="true" signature="368:530" ph="{...}" />
+            <marker date="1527928540985" expanded="true" signature="449:520" ph="{...}" />
+            <marker date="1527928540985" expanded="true" signature="572:747" ph="{...}" />
+            <marker date="1527928540985" expanded="true" signature="784:874" ph="{...}" />
+            <marker date="1527928540985" expanded="true" signature="948:1042" ph="{...}" />
+            <marker date="1527928540985" expanded="true" signature="1104:1199" ph="{...}" />
+            <marker date="1527928540985" expanded="true" signature="1233:1329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Domain/UseCase/MoguraUseCase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <marker date="1530112007222" expanded="true" signature="6:226" ph="..." />
+            <marker date="1530112007222" expanded="true" signature="259:2186" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="308:320" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="369:2184" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="443:605" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="524:595" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="666:1181" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="1230:1589" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="1364:1418" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="1656:1761" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="1811:2178" ph="{...}" />
+            <marker date="1530112007222" expanded="true" signature="2021:2168" ph="{...}" />
           </folding>
         </state>
       </provider>

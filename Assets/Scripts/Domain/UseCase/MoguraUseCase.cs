@@ -1,12 +1,11 @@
 using CAFU.Core.Domain.UseCase;
 using UnityEngine;
-using UnityEngine.SocialPlatforms;
 using System.Collections;
 using System.Collections.Generic;
 using Mogura.Domain.Model;
 using UniRx;
 using UniRx.Triggers;
-using UnityEngine;
+using Mogura.Constants;
 
 namespace Mogura.Domain.UseCase
 {
@@ -42,14 +41,32 @@ namespace Mogura.Domain.UseCase
         
         public int Beat(GameObject obj)
         {
-            GameObject.Destroy(obj); // TODO: access to a static member of a type via a derived type
+            var anim = obj.GetComponent<Animator>();
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("Damaged"))
+            {
+                return 0;
+            }
+            anim.SetTrigger("Damaged");
+            Observable.FromCoroutine(() => DeleteGameObject(obj, 1))
+                .Subscribe();
             return 1;
         }
-        
+
+        IEnumerator DeleteGameObject(GameObject obj, float n = 0)
+        {
+            yield return new WaitForSeconds(n);
+            GameObject.Destroy(obj);
+        }
+
         IEnumerator Despawn(Model.Mogura mogura)
         {
             yield return new WaitForSeconds(2);
-            GameObject.Destroy(mogura.gameObject); // TODO: access to a static member of a type via a derived type
+            
+            var anim = mogura.gameObject.GetComponent<Animator>();
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Damaged"))
+            {
+                GameObject.Destroy(mogura.gameObject); // TODO: access to a static member of a type via a derived type
+            }
         }
     }
 }
