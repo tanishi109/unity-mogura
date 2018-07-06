@@ -4,7 +4,6 @@ using CAFU.Core.Domain.UseCase;
 using CAFU.Routing.Domain.UseCase;
 using Mogura.Domain.Model;
 using UniRx;
-using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
